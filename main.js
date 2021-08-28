@@ -13,7 +13,7 @@ function Capture_image(){
     });
 
 }
-var classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/ZB4t0nN9T/   ",modelLoaded)
+var classifier = ml5.imageClassifier("https://teachablemachine.withgoogle.com/models/ZB4t0nN9T/model.json",modelLoaded)
 
 function modelLoaded(){
     console.log('Model Loaded !');
